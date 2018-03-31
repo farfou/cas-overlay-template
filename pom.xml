@@ -122,10 +122,12 @@
                     <type>war</type>
                     <scope>runtime</scope>
                 </dependency>
-                <!--
-                ...Additional dependencies may be placed here...
-                -->
-            </dependencies>
+                <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-ldap</artifactId>
+            <version>${cas.version}</version>
+        </dependency> 
+	   </dependencies>
         </profile>
 
         <profile>
